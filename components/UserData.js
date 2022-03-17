@@ -28,7 +28,7 @@ const UserData = ({location, twitterUsername,blog, company}) => {
                 href={`https://twitter.com/${twitterUsername}`}
                 target="_blank"
               >
-                {twitterUsername ? twitterUsername : "Not Available"}
+                {twitterUsername ? twitterUsername : "Not Added"}
               </a>
             </p>
           </div>
